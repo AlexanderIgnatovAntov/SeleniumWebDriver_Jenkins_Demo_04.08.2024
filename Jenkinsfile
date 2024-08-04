@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout code') {
             //check the repo
             steps {
-                git branch: 'main', url: 'http://localhost:8082/job/SeleniumWebDriver_Jenkins_Demo_04.08.2024'
+                git branch: 'main', url: 'https://github.com/AlexanderIgnatovAntov/SeleniumWebDriver_Jenkins_Demo_04.08.2024'
             }
         }
         stage('Set up .Net Core') {
